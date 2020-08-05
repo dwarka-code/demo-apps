@@ -132,6 +132,25 @@ input[type="submit"] {
 
 .uploadform {
   width: 50%;
-  margin: 0 25px;
+  padding: 0 25px;
   min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.result {
+  width: 50%;
+  padding: 0 25px;
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mytable td {
+  border: 1px solid#DFE3E7;
+  padding: 10px;
+}
+
+.mytable td:nth-child(2) {
+  font-weight: 500;
 }

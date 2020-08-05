@@ -13,8 +13,10 @@ class Content extends Component {
   render() {
     return (
       <div>
-        <div className="content-box">
-          <Kyc />
+        <div class="content">
+          <div className="content-box">
+            <Kyc />
+          </div>
         </div>
       </div>
     );

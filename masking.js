@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class Kyc extends Component {
+class Masking extends Component {
   constructor() {
     super();
     this.state = {
@@ -212,4 +212,4 @@ class Kyc extends Component {
   }
 }
 
-export default Kyc;
+export default Masking;
