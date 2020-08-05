@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
+
 class SideBar extends Component {
   constructor() {
     super();
@@ -12,7 +13,7 @@ class SideBar extends Component {
   render() {
     return (
       <div>
-        <div class="logo"></div>
+        <div class="logo"><img src='images/logo_hdfc.png' /></div>
         <div class="menu"></div> 
       </div>
     );
