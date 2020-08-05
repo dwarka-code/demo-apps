@@ -4,6 +4,10 @@
 
 body{
   font-family:"IBM Plex Sans,Helvetica,Arial,serif";
+  background: #F2F4F4;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #727E8C;
 }
 
 p{
@@ -12,4 +16,12 @@ p{
 
 h1{
   font-family: "Rubik,Helvetica,Arial,serif";
+}
+
+.sidebar{
+  width: 300px;
+  max-width: 300px;
+  height: 100vh;
+  border-right: 1px solid #DFE3E7;
+  position: fixed;
 }
