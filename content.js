@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Kyc from "./kyc";
+import Kyc from "./kyca";
 //import Logo from '';
 
 class Content extends Component {
