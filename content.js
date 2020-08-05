@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Kyc from "./kyc";
 //import Logo from '';
 
 class Content extends Component {
@@ -11,7 +11,13 @@ class Content extends Component {
   }
 
   render() {
-    return <div />;
+    return (
+      <div>
+        <div className="content-box">
+          <Kyc />
+        </div>
+      </div>
+    );
   }
 }
 

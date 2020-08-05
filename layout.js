@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Sidebar from "./sidebar";
+import Content from "./content";
 
 //import Logo from '';
 
@@ -17,7 +18,9 @@ class Layout extends Component {
         <div class="sidebar">
           <Sidebar />
         </div>
-        <div class="content" />
+        <div class="content">
+          <Content />{" "}
+        </div>
       </div>
     );
   }

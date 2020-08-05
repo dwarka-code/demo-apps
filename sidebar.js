@@ -12,12 +12,17 @@ class SideBar extends Component {
   render() {
     return (
       <div>
-        <div class="logo">
+        <div className="logo">
           <img src="https://www.hdfcergo.com/images/default-source/home/logo_hdfc.svg" />
         </div>
-        <div class="menu">
-          <a href="/ocr">OCR</a>
-          <a href="/ocr">Renewal</a>
+        <div className="menu">
+          <h4>Projects</h4>
+          <a href="/ocr" className="nav-a">
+            OCR
+          </a>
+          <a href="/ocr" className="nav-a">
+            Renewal
+          </a>
         </div>
       </div>
     );

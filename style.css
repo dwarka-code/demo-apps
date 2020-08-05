@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap");
 
@@ -19,8 +19,8 @@ h1 {
 }
 
 .sidebar {
-  width: 300px;
-  max-width: 300px;
+  width: 260px;
+  max-width: 260px;
   height: 100vh;
   border-right: 1px solid #dfe3e7;
   position: fixed;
@@ -38,15 +38,54 @@ h1 {
   border: 1px solid #dfe3e7;
 }
 
-.menu a {
+.nav-a {
   display: block;
-  font-family: "Rubik,Helvetica,Arial,serif";
+  font-family: "Rubik", sans-serif;
   transition: all 0.35s ease !important;
   color: #8494a7;
+  margin: 0px 9px !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #8494a7;
+}
+
+.nav-a:last-child {
+  border-bottom: 0px dashed #8494a7;
+}
+
+.nav-a:hover {
+  padding-left: 5px;
 }
 
 ul,
 ul li {
   list-style: none;
   margin: 0;
+}
+
+.content {
+  margin-left: 260px;
+  padding: 100px 5% 30px;
+}
+
+.content-box {
+  margin-bottom: 2.2rem;
+  box-shadow: -8px 12px 18px 0 rgba(25, 42, 70, 0.13);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 1.4rem 1.7rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid #dfe3e7;
+  border-radius: 0.267rem;
 }
