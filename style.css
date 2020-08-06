@@ -120,7 +120,8 @@ ul li {
   line-height: 16px;
 }
 
-input[type="submit"] {
+input[type="submit"],
+.btn-cus {
   display: inline;
   padding: 7px 12px;
   background: #5a8dee !important;
@@ -128,6 +129,10 @@ input[type="submit"] {
   font-family: "IBM Plex Sans", sans-serif;
   border-radius: 0.267rem;
   border: none;
+}
+
+.btn-cus:hover {
+  color: #fff;
 }
 
 .uploadform {
@@ -151,6 +156,35 @@ input[type="submit"] {
   padding: 10px;
 }
 
-.mytable td:nth-child(2) {
+.mytable td:nth-child(1) {
   font-weight: 500;
+}
+
+.circle-num {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #ff4243 !important;
+  color: #ffffff;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.card {
+  margin-bottom: 2.2rem;
+  box-shadow: -8px 12px 18px 0 rgba(25, 42, 70, 0.13);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-info {
+  margin-top: 30px;
 }

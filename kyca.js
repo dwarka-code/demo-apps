@@ -5,8 +5,8 @@ class Kyc extends Component {
   constructor() {
     super();
     this.state = {
-      overview: false,
-      demo: true,
+      overview: true,
+      demo: false,
       apidoc: false,
       deploy: false,
       sample: false,
@@ -204,7 +204,7 @@ class Kyc extends Component {
         )}
         {this.state.sample === true && (
           <div>
-            <p>sample will be available </p>
+            <p>sample data will be available soon</p>
           </div>
         )}
       </div>

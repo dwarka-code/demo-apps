@@ -17,10 +17,10 @@ class SideBar extends Component {
         </div>
         <div className="menu">
           <h4>Projects</h4>
-          <a href="/ocr" className="nav-a">
+          <a href="/project" className="nav-a">
             OCR
           </a>
-          <a href="/ocr" className="nav-a">
+          <a href="/project" className="nav-a">
             Renewal
           </a>
         </div>

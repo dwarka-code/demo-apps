@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Sidebar from "./sidebar";
-import Content from "./content";
+import ProjectList from "./projectList";
 
 //import Logo from '';
 
-class Layout extends Component {
+class ListSubProject extends Component {
   constructor() {
     super();
     this.state = {
@@ -19,10 +19,10 @@ class Layout extends Component {
           <Sidebar />
         </div>
 
-        <Content />
+        <ProjectList />
       </div>
     );
   }
 }
 
-export default Layout;
+export default ListSubProject;

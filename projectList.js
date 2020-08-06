@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 //import Logo from '';
 
-class Projects extends Component {
+class ProjectList extends Component {
   constructor() {
     super();
     this.state = {
@@ -11,36 +11,28 @@ class Projects extends Component {
   }
 
   render() {
+    let Kyc =
+      "Data extraction from kyc documents like pan, aadhaar, full size aadhaar, dl, rc, etc.";
+    let aadhar =
+      "PDF with multiple file and single file masking with short and long format";
     return (
       <div className="content">
-        <h2 className="text-center">Knowledge Base</h2>
-        <p className="text-center">
-          All below mention project related demo, api document, deployment
-          process, and sample are available here
-        </p>
+        <h2 className="text-center">OCR</h2>
+
         <div className="row content-info mx-1 mx-md-2 mx-lg-5">
           <div className="col-12">
             <div className="row match-height">
               <div className="col-md-4 click col-sm-6 kb-search-content">
-                <a href="project">
-                  <div className="card">
-                    <div className="card-content">
-                      <div className="card-body text-center">
-                        <p>Project</p>
-                        <div className="circle-num">2</div>
-                        <h3>OCR</h3>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 click col-sm-6 kb-search-content">
                 <div className="card">
                   <div className="card-content">
                     <div className="card-body text-center">
-                      <p>Project</p>
-                      <div className="circle-num">0</div>
-                      <h3>Renewal</h3>
+                      <h4>KYC Data</h4>
+                      <p className="text-center">{Kyc.substring(0, 100)}</p>
+                      <div className="text-center">
+                        <a href="kyc" className="btn-cus">
+                          View
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -49,9 +41,13 @@ class Projects extends Component {
                 <div className="card">
                   <div className="card-content">
                     <div className="card-body text-center">
-                      <p>Project</p>
-                      <div className="circle-num">0</div>
-                      <h3>E-sign</h3>
+                      <h4>Aadhaar Masking</h4>
+                      <p className="text-center">{aadhar.substring(0, 100)}</p>
+                      <div className="text-center">
+                        <a href="masking" className="btn-cus">
+                          View
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -64,4 +60,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default ProjectList;
